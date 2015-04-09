@@ -1,0 +1,21 @@
+{
+  "name": "OnePage",
+  "version": "0.0.0",
+  "authors": [
+    "philipp.sengelmann <sengelmann.philipp@googlemail.com>"
+  ],
+  "description": "onepage example",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jQuery": "1.11.1",
+    "jquery-ui": "1.11.4"
+  }
+}

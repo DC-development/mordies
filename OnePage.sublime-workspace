@@ -1,0 +1,319 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2155,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scss/screen.scss",
+			"settings":
+			{
+				"buffer_size": 1848,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 110.0,
+		"last_filter": "reoove",
+		"selected_items":
+		[
+			[
+				"reoove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"fz",
+				"SublimeZilla: Import FileZilla Server"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"INstall ",
+				"Package Control: Install Package"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			]
+		],
+		"width": 386.0
+	},
+	"console":
+	{
+		"height": 263.0,
+		"history":
+		[
+			"fz"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/DCDevelopment/projects/OnePage"
+	],
+	"file_history":
+	[
+		"/C/Users/philipp.sengelmann/Desktop/booking-mail.txt",
+		"/C/DCDevelopment/projects/OnePage/sftp-config.json",
+		"/C/DCDevelopment/projects/OnePage/index.html",
+		"/C/Users/philipp.sengelmann/AppData/Roaming/Sublime Text 3/Packages/FileZilla SFTP Import/README.md",
+		"/C/DCDevelopment/projects/OnePage/scss/_sassybuttons.scss",
+		"/C/DCDevelopment/projects/OnePage/scss/_forms.scss",
+		"/C/DCDevelopment/projects/OnePage/scss/screen.scss",
+		"/C/DCDevelopment/projects/OnePage/scss/_typo.scss",
+		"/C/DCDevelopment/projects/OnePage/js/script.js",
+		"/C/DCDevelopment/projects/OnePage/bower.json",
+		"/C/DCDevelopment/projects/OnePage/bower_components/jQuery/src/core/init.js",
+		"/C/DCDevelopment/projects/OnePage/config.rb",
+		"/C/DCDevelopment/projects/OnePage/bower_components/jQuery/src/core/parseHTML.js",
+		"/C/DCDevelopment/projects/OnePage/bower_components/jQuery/src/core/ready.js",
+		"/C/DCDevelopment/projects/OnePage/bower_components/jQuery/src/attributes/classes.js",
+		"/C/DCDevelopment/projects/OnePage/bower_components/jquery/dist/jquery.js",
+		"/C/DCDevelopment/projects/OnePage/bower_components/jquery/bower.json",
+		"/C/DCDevelopment/projects/OnePage/scss/print.scss",
+		"/C/DCDevelopment/projects/OnePage/scss/_variables.scss",
+		"/C/DCDevelopment/projects/OnePage/stylesheets/screen.css",
+		"/C/DCDevelopment/projects/OnePage/images/android-transparent.png",
+		"/C/DCDevelopment/projects/Angular/poppy-0.2.0/client/app/app.js",
+		"/C/DCDevelopment/projects/OnePage/scss/ie.scss",
+		"/C/Users/philipp.sengelmann/Desktop/sublime-license.txt",
+		"/C/DCDevelopment/projects/OnePage/stylesheets/print.css",
+		"/C/Users/philipp.sengelmann/Desktop/hosts",
+		"/C/Users/philipp.sengelmann/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/philipp.sengelmann/Desktop/test.txt"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2155,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1936,
+								1936
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 252.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scss/screen.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1848,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								478,
+								478
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 212.0
+	},
+	"pinned_build_system": "",
+	"project": "OnePage.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 226.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

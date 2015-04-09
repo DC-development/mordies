@@ -1,0 +1,175 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "variables";
+@import "sassybuttons";
+@import "breakpoint";
+@import "grids";
+@import "typo";
+@import "forms";
+@import "nav";
+@import "font-awesome";
+
+body {
+	background: $dc-base-color;
+}
+i {
+	@extend .fa;
+	font-size: 1.4em;
+	&.myHome {
+		@extend .fa-home;
+	}
+	&.myServices {
+		@extend .fa-wrench;
+	}
+	&.myTraining {
+		@extend .fa-file-text-o;
+		width: auto;
+	}
+	&.myTranslation {
+		@extend .fa-arrows-h;
+		width: auto;
+	}
+	&.myInterpretation {
+		@extend .fa-question;
+		width: auto;
+	}
+	&.myReference {
+		@extend .fa-eye;
+		width: auto;
+	}
+	&.myDemo {
+		@extend .fa-wrench;
+	}
+	&.myContact {
+		@extend .fa-envelope;
+	}
+}
+header {
+	text-align: center;
+	background: #000;
+	overflow: hidden;
+	height: 6.3em;
+	img{
+		margin: auto;
+		max-width: 26em;
+	}
+}
+#main {
+	@include container(100%);
+	max-width: 26em;
+
+	padding-bottom: 20em;
+	margin: auto;
+	background: $dc-base-color;
+	
+	section {
+		margin: auto;
+		padding-top: 2.5em;
+		max-width: 22em;
+		overflow: hidden;
+		.illu{
+			@include span(1 of 10)
+		}
+		article{
+			@include span(9 of 10)
+		}
+		h2{
+		  	margin-top: 0.5em; 
+		}
+		h3 {
+		  	clear: both;	  
+		}
+		p{
+			img.reference {
+		  		@include span(1 of 4)
+		  	}
+		}
+	}
+
+}
+
+footer {
+	padding: 0.4em;	
+}
+
+@include breakpoint(min-width 600px) {
+	.my-btn {
+		@include sassy-button("glass", 0.2em, 0.6em, $dc-base-color, $dc-base-color);
+	}
+	body  {
+		font-size: 30px;
+	}
+}
+
+@include breakpoint(max-width 800px) {
+	nav {
+			#toggleNav {
+				display: block;
+				float: right;
+			}
+			ul.nav{
+				width: 100%;
+				li {
+					float: none;
+					width: 100%;
+					padding: 0;
+					a {
+						padding-left: 1.25em;
+						text-align: left;
+					}
+				}
+			}
+			&.collapsed {
+		height: 1.4em;
+	}
+
+		}
+	#main{
+		@include container(100%);
+		max-width: 550px;
+		max-width: 20em;
+		
+	}
+
+	.my-btn {
+		@include sassy-button("glass", 0.2em, 0.6em, #dead2c, #ea9e1b);
+	}
+	body  {
+		font-size: 24px;
+	}
+}
+@include breakpoint(max-width 350px) {
+	body  {
+		font-size: 6vw;
+	}
+	#main{
+		@include container(100%);
+		margin: 0;
+		section {
+		  .illu{
+			
+				position: absolute;
+				overflow: hidden;
+				@include span(8 of 8);
+				margin-left:-0.5em;
+				i {
+					font-size: 2em;
+					opacity: 0.3;
+					float: right;
+				}
+			}
+		
+			article{
+				@include span(8 of 8)
+			}
+		}
+
+	}
+	.my-btn {
+		@include sassy-button("glass", 0.2em, 0.6em, #04e0dc, #0b8893);
+	}
+}

@@ -1,0 +1,45 @@
+nav {
+	#toggleNav {
+		display: none;
+		float: right;
+		margin: 0.4em;
+		background: none;
+		border: none;
+		color: $nav-link-color;
+		&:focus{
+			outline: none; 
+			border: none;
+		}
+	}
+	position: fixed;
+	top:0;
+	width: 100%;
+	border: 1px solid $border-color;
+	background: $nav-background-color;
+	z-index: 1000;
+	overflow: hidden;
+	@include box-shadow(#000 0px 0px 0.5em);
+}
+ul.nav {
+	display: block;
+	overflow: hidden;
+	li {
+		@include span(1 of 8 );
+		overflow: hidden;
+		display: block;
+		a {
+			display: block;
+			text-align: center;
+			padding: 1em 0;
+			font-size: 0.5em;
+			color: $nav-link-color;
+			text-decoration: none;
+			text-transform: capitalize;
+
+			&:hover {
+				background: $nav-hover-color;
+			}
+		}
+
+	}	
+}
