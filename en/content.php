@@ -1,21 +1,4 @@
-<!doctype html>
-<html>
-	<head>
-		<meta name="viewport" content="width=device-width, user-scalable=no">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-		<link href="./stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-		<link href="./stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
-
-		<script type="text/javascript" src="js/libs/jquery.min.js"></script>
-		<script type="text/javascript" src="js/script.js"></script>
-
-		<!--[if IE]>
-			<link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
-		<![endif]-->
-	</head>
-	<body>
-		<header id="home">
+<header id="home">
 			<img src="images/mordie.jpg">
 		</header>
 		<nav class="main-nav collapsed">
@@ -140,5 +123,3 @@
 		<footer>
 			<p>Copyright (2015): Mordies Quality Translations & DC Development. All rights reserved.</p>
 		</footer>
-	</body>
-</html>
