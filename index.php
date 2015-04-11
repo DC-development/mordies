@@ -35,6 +35,8 @@
 			}else{
 				$lang = "en";
 			}
+			//Loading language file
+			require  "./lang/".$lang.".php";
 
 			include  $lang."/content.php";
 			//echo $_SERVER['REQUEST_URI']."<br />";
