@@ -116,8 +116,8 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  border: 1px solid #eccf84;
-  background: #e5be58;
+  border: 1px solid #15d800;
+  background: #10a500;
   z-index: 1000;
   overflow: hidden;
   height: auto;
@@ -132,7 +132,7 @@ nav #toggleNav {
   margin: 0.4em;
   background: none;
   border: none;
-  color: #faf2dc;
+  color: #52ff3f;
 }
 /* line 9, ../scss/_nav.scss */
 nav #toggleNav:focus {
@@ -163,13 +163,13 @@ ul.nav li a {
   text-align: center;
   padding: 1em 0;
   font-size: 0.5em;
-  color: #faf2dc;
+  color: #52ff3f;
   text-decoration: none;
   text-transform: capitalize;
 }
 /* line 40, ../scss/_nav.scss */
 ul.nav li a:hover {
-  background: white;
+  background: #aeffa5;
 }
 
 /*!
@@ -500,7 +500,7 @@ ul.nav li a:hover {
 }
 
 /* line 27, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
-.fa-home:before, i.myHome:before {
+.fa-home:before {
   content: "";
 }
 
@@ -825,7 +825,7 @@ ul.nav li a:hover {
 }
 
 /* line 96, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
-.fa-question-circle:before {
+.fa-question-circle:before, i.myHome:before {
   content: "";
 }
 
@@ -1002,7 +1002,7 @@ ul.nav li a:hover {
 }
 
 /* line 133, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
-.fa-arrows-h:before, i.myTranslation:before {
+.fa-arrows-h:before {
   content: "";
 }
 
@@ -1033,7 +1033,7 @@ ul.nav li a:hover {
 }
 
 /* line 140, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
-.fa-gears:before,
+.fa-gears:before, i.myTranslation:before,
 .fa-cogs:before {
   content: "";
 }
@@ -1180,7 +1180,7 @@ ul.nav li a:hover {
 }
 
 /* line 171, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
-.fa-hand-o-right:before {
+.fa-hand-o-right:before, i.myContact:before {
   content: "";
 }
 
@@ -1251,7 +1251,8 @@ ul.nav li a:hover {
 
 /* line 185, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
 .fa-group:before,
-.fa-users:before {
+.fa-users:before,
+i.myInterpretation:before {
   content: "";
 }
 
@@ -1410,7 +1411,7 @@ ul.nav li a:hover {
 }
 
 /* line 225, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
-.fa-envelope:before, i.myContact:before {
+.fa-envelope:before {
   content: "";
 }
 
@@ -1520,7 +1521,7 @@ ul.nav li a:hover {
 }
 
 /* line 251, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
-.fa-file-text-o:before, i.myTraining:before {
+.fa-file-text-o:before {
   content: "";
 }
 
@@ -1751,7 +1752,7 @@ ul.nav li a:hover {
 }
 
 /* line 302, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
-.fa-question:before, i.myInterpretation:before {
+.fa-question:before {
   content: "";
 }
 
@@ -1781,7 +1782,7 @@ ul.nav li a:hover {
 }
 
 /* line 308, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
-.fa-puzzle-piece:before {
+.fa-puzzle-piece:before, i.myTraining:before {
   content: "";
 }
 
@@ -3067,7 +3068,7 @@ ul.nav li a:hover {
 
 /* line 16, ../scss/screen.scss */
 body {
-  background: #dead2c;
+  background: #0b7200;
 }
 
 /* line 19, ../scss/screen.scss */
@@ -3112,7 +3113,7 @@ header img {
   max-width: 26em;
   padding-bottom: 20em;
   margin: auto;
-  background: #dead2c;
+  background: #0b7200;
 }
 /* line 12, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
 #main:after {
@@ -3182,18 +3183,18 @@ footer {
     -webkit-border-radius: 0.2em;
     border-radius: 0.2em;
     *zoom: 1;
-    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFDEAD2C', endColorstr='#FF8E6D16');
-    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNlNGJiNGYiLz48c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iI2RlYWQyYyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, #e4bb4f), color-stop(51%, #dead2c));
-    background: -moz-linear-gradient(#e4bb4f 50%, #dead2c 51%);
-    background: -webkit-linear-gradient(#e4bb4f 50%, #dead2c 51%);
-    background: linear-gradient(#e4bb4f 50%, #dead2c 51%);
-    -moz-box-shadow: #eed491 0 1px 0 inset;
-    -webkit-box-shadow: #eed491 0 1px 0 inset;
-    box-shadow: #eed491 0 1px 0 inset;
-    border: 1px solid #d0a021;
+    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF0B7200', endColorstr='#FF010C00');
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMwZjliMDAiLz48c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzBiNzIwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, #0f9b00), color-stop(51%, #0b7200));
+    background: -moz-linear-gradient(#0f9b00 50%, #0b7200 51%);
+    background: -webkit-linear-gradient(#0f9b00 50%, #0b7200 51%);
+    background: linear-gradient(#0f9b00 50%, #0b7200 51%);
+    -moz-box-shadow: #16e700 0 1px 0 inset;
+    -webkit-box-shadow: #16e700 0 1px 0 inset;
+    box-shadow: #16e700 0 1px 0 inset;
+    border: 1px solid #095900;
     color: #fff;
-    text-shadow: #987418 0 -1px 0;
+    text-shadow: #021700 0 -1px 0;
   }
   /* line 15, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
   .my-btn:hover {
@@ -3201,24 +3202,24 @@ footer {
   }
   /* line 30, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
   .my-btn:hover {
-    background-color: #c7991f;
-    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNkZmFmMzAiLz48c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iI2M3OTkxZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, #dfaf30), color-stop(51%, #c7991f));
-    background: -moz-linear-gradient(#dfaf30 50%, #c7991f 51%);
-    background: -webkit-linear-gradient(#dfaf30 50%, #c7991f 51%);
-    background: linear-gradient(#dfaf30 50%, #c7991f 51%);
+    background-color: #084e00;
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMwYjc3MDAiLz48c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzA4NGUwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, #0b7700), color-stop(51%, #084e00));
+    background: -moz-linear-gradient(#0b7700 50%, #084e00 51%);
+    background: -webkit-linear-gradient(#0b7700 50%, #084e00 51%);
+    background: linear-gradient(#0b7700 50%, #084e00 51%);
   }
   /* line 33, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
   .my-btn:active {
-    -moz-box-shadow: #c3961e 0 1px 2px inset;
-    -webkit-box-shadow: #c3961e 0 1px 2px inset;
-    box-shadow: #c3961e 0 1px 2px inset;
+    -moz-box-shadow: #074900 0 1px 2px inset;
+    -webkit-box-shadow: #074900 0 1px 2px inset;
+    box-shadow: #074900 0 1px 2px inset;
   }
   /* line 6, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
   .my-btn.disabled, .my-btn[disabled] {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
     opacity: 0.6;
-    background: #dead2c;
+    background: #0b7200;
     cursor: default;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;

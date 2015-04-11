@@ -17,7 +17,7 @@
 	<body>
 		<?php 
 		
-			if(isset($_GET['lang'])){
+			if(isset($_GET['lang'])) {
 				$lang = $_GET['lang'];
 			}else{
 				$lang = "en";
@@ -25,7 +25,10 @@
 
 			echo $lang;
 			include  $lang."/content.php";
-
+echo $_SERVER['REQUEST_URI']."<br />";
+			foreach ($_SERVER as $key  => $value){
+				print $key;
+			}
 		?>
 	</body>
 </html>
