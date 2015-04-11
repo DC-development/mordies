@@ -1,3 +1,3 @@
 <header id="home">
-	<img src="images/mordie.jpg">
+	<img src="images/mordies.png">
 </header>
