@@ -20,21 +20,21 @@ i {
 	@extend .fa;
 	font-size: 1.4em;
 	&.myHome {
-		@extend .fa-home;
+		@extend .fa-question-circle ;
 	}
 	&.myServices {
 		@extend .fa-wrench;
 	}
 	&.myTraining {
-		@extend .fa-file-text-o;
+		@extend .fa-puzzle-piece;
 		width: auto;
 	}
 	&.myTranslation {
-		@extend .fa-arrows-h;
+		@extend .fa-gears;
 		width: auto;
 	}
 	&.myInterpretation {
-		@extend .fa-question;
+		@extend .fa-users;
 		width: auto;
 	}
 	&.myReference {
@@ -45,7 +45,7 @@ i {
 		@extend .fa-wrench;
 	}
 	&.myContact {
-		@extend .fa-envelope;
+		@extend .fa-hand-o-right;
 	}
 }
 header {
