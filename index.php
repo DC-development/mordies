@@ -17,7 +17,7 @@
 	<body>
 		<?php 
 		
-			if($_GET['lang']){
+			if(isset($_GET['lang'])){
 				$lang = $_GET['lang'];
 			}else{
 				$lang = "en";
