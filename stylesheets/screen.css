@@ -120,6 +120,7 @@ nav {
   background: #e5be58;
   z-index: 1000;
   overflow: hidden;
+  height: auto;
   -moz-box-shadow: #000 0px 0px 0.5em;
   -webkit-box-shadow: #000 0px 0px 0.5em;
   box-shadow: #000 0px 0px 0.5em;
@@ -139,12 +140,12 @@ nav #toggleNav:focus {
   border: none;
 }
 
-/* line 23, ../scss/_nav.scss */
+/* line 24, ../scss/_nav.scss */
 ul.nav {
   display: block;
   overflow: hidden;
 }
-/* line 26, ../scss/_nav.scss */
+/* line 27, ../scss/_nav.scss */
 ul.nav li {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -156,7 +157,7 @@ ul.nav li {
   overflow: hidden;
   display: block;
 }
-/* line 30, ../scss/_nav.scss */
+/* line 31, ../scss/_nav.scss */
 ul.nav li a {
   display: block;
   text-align: center;
@@ -166,7 +167,7 @@ ul.nav li a {
   text-decoration: none;
   text-transform: capitalize;
 }
-/* line 39, ../scss/_nav.scss */
+/* line 40, ../scss/_nav.scss */
 ul.nav li a:hover {
   background: white;
 }
