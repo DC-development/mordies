@@ -3,7 +3,8 @@
 	<head>
 		<meta name="viewport" content="width=device-width, user-scalable=no">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		
 		<link href="./stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
 		<link href="./stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
 
@@ -36,13 +37,17 @@
 				$lang = "en";
 			}
 			//Loading language file
-			require  "./lang/".$lang.".php";
+			$str = file_get_contents("./lang/".$lang.".json");
+			$json = json_decode($str, true);
 
-			include  $lang."/content.php";
+
+			$smarty->assign("articles", $json, true);
+
+			//include  $lang."/content.php";
+$smarty->display('content.tpl');
 			//echo $_SERVER['REQUEST_URI']."<br />";
 
 ?>
-
 
 	</body>
 </html>

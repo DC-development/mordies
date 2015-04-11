@@ -1,0 +1,14 @@
+{
+	"about" : { 
+		"icon" : "fa-question",
+		"header": "About Headline",
+		"subHeader" : "About Sub  Headline",
+		"text": "<p>Deutsch al teh text</p>"
+	}, 
+	"services" : {
+		"icon" : "fa-wrench",
+		"header" : "Services Headline",
+		"subHeader" : "Services Sub Headline",
+		"text": "<p>English SERVICE al teh text</p>"
+	}
+}
