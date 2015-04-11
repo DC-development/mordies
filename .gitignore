@@ -1,4 +1,8 @@
 .sass-cache
 bower_components
 screenshots
+cache
+templates_c
 sftp-config.json
+libs/smarty/demo
+

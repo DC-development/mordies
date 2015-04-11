@@ -16,6 +16,18 @@
 	</head>
 	<body>
 		<?php 
+		require './libs/smarty/libs/Smarty.class.php';
+
+		$smarty = new Smarty;
+
+		//$smarty->force_compile = true;
+		$smarty->debugging = true;
+		$smarty->caching = true;
+		$smarty->cache_lifetime = 120;
+
+		$smarty->assign("Name", "Fred Irving Johnathan Bradley Peppergill", true);
+
+		$smarty->display('header.tpl');
 		
 			if(isset($_GET['lang'])) {
 				$lang = $_GET['lang'];
@@ -23,12 +35,11 @@
 				$lang = "en";
 			}
 
-			echo $lang;
 			include  $lang."/content.php";
-echo $_SERVER['REQUEST_URI']."<br />";
-			foreach ($_SERVER as $key  => $value){
-				print $key;
-			}
-		?>
+			//echo $_SERVER['REQUEST_URI']."<br />";
+
+?>
+
+
 	</body>
 </html>
