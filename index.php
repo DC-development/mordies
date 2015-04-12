@@ -3,7 +3,8 @@
 	<head>
 		<meta name="viewport" content="width=device-width, user-scalable=no">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		
 		<link href="./stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
 		<link href="./stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
 
@@ -29,18 +30,18 @@
 		$smarty->assign("Name", "Fred Irving Johnathan Bradley Peppergill", true);
 
 		$smarty->display('header.tpl');
-		
-			if(isset($_GET['lang'])) {
-				$lang = $_GET['lang'];
-			}else{
-				$lang = "en";
-			}
 
-			include  $lang."/content.php";
-			//echo $_SERVER['REQUEST_URI']."<br />";
+		$smarty->display('langswitch.tpl');
+		
+		if(isset($_GET['lang'])) {
+			$lang = $_GET['lang'];
+		}else{
+			$lang = "en";
+		}
+
+		include  $lang."/content.php";
 
 ?>
-
 
 	</body>
 </html>
