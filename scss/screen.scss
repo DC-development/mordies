@@ -72,7 +72,15 @@ header {
 	  	width: 4.3em;
 	}
 }
+#chooseLang{
+		float:right;
+		padding-right: 0.5em;
+		a {
+			color: $dc-light-color;
+		}
+	}
 #main {
+
 	@include container(100%);
 	max-width: 26em;
 
