@@ -156,8 +156,10 @@ ul.nav li {
   padding-right: 1.25%;
   overflow: hidden;
   display: block;
+  padding-left: 0;
+  padding-right: 0;
 }
-/* line 31, ../scss/_nav.scss */
+/* line 33, ../scss/_nav.scss */
 ul.nav li a {
   display: block;
   text-align: center;
@@ -167,7 +169,7 @@ ul.nav li a {
   text-decoration: none;
   text-transform: capitalize;
 }
-/* line 40, ../scss/_nav.scss */
+/* line 42, ../scss/_nav.scss */
 ul.nav li a:hover {
   background: white;
 }
