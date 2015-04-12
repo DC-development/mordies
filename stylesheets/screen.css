@@ -116,8 +116,8 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  border: 1px solid #baca79;
-  background: #a7bb55;
+  border: 1px solid #0070db;
+  background: #0056a8;
   z-index: 1000;
   overflow: hidden;
   height: auto;
@@ -132,7 +132,7 @@ nav #toggleNav {
   margin: 0.4em;
   background: none;
   border: none;
-  color: #dfe7c2;
+  color: #42a3ff;
 }
 /* line 9, ../scss/_nav.scss */
 nav #toggleNav:focus {
@@ -165,13 +165,13 @@ ul.nav li a {
   text-align: center;
   padding: 1em 0;
   font-size: 0.5em;
-  color: #dfe7c2;
+  color: #42a3ff;
   text-decoration: none;
   text-transform: capitalize;
 }
 /* line 42, ../scss/_nav.scss */
 ul.nav li a:hover {
-  background: white;
+  background: #a8d5ff;
 }
 
 /*!
@@ -3070,7 +3070,7 @@ i.myInterpretation:before {
 
 /* line 16, ../scss/screen.scss */
 body {
-  background: #8b9e3f;
+  background: #003c75;
 }
 /* line 18, ../scss/screen.scss */
 body a {
@@ -3101,7 +3101,7 @@ i.myReference {
 /* line 54, ../scss/screen.scss */
 header {
   padding-top: 0.5em;
-  background: white;
+  background: #dbedff;
   overflow: hidden;
   height: 6.3em;
 }
@@ -3120,7 +3120,7 @@ header .header-typo {
 /* line 68, ../scss/screen.scss */
 header .header-typo h1, header .header-typo h2 {
   font-family: lucida console;
-  color: #8b9e3f;
+  color: #003c75;
 }
 /* line 73, ../scss/screen.scss */
 header img {
@@ -3143,7 +3143,7 @@ header img {
   max-width: 26em;
   padding-bottom: 20em;
   margin: auto;
-  background: #8b9e3f;
+  background: #003c75;
 }
 /* line 12, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
 #main:after {
@@ -3157,7 +3157,6 @@ header img {
   padding-top: 2.5em;
   max-width: 22em;
   overflow: hidden;
-  clear: both;
 }
 /* line 99, ../scss/screen.scss */
 #main section .illu {
@@ -3219,18 +3218,18 @@ footer {
     -webkit-border-radius: 0.2em;
     border-radius: 0.2em;
     *zoom: 1;
-    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF8B9E3F', endColorstr='#FF4B5522');
-    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNhM2I4NGUiLz48c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzhiOWUzZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, #a3b84e), color-stop(51%, #8b9e3f));
-    background: -moz-linear-gradient(#a3b84e 50%, #8b9e3f 51%);
-    background: -webkit-linear-gradient(#a3b84e 50%, #8b9e3f 51%);
-    background: linear-gradient(#a3b84e 50%, #8b9e3f 51%);
-    -moz-box-shadow: #bfce84 0 1px 0 inset;
-    -webkit-box-shadow: #bfce84 0 1px 0 inset;
-    box-shadow: #bfce84 0 1px 0 inset;
-    border: 1px solid #7b8c38;
+    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF003C75', endColorstr='#FF00080F');
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMwMDUxOWUiLz48c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzAwM2M3NSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, #00519e), color-stop(51%, #003c75));
+    background: -moz-linear-gradient(#00519e 50%, #003c75 51%);
+    background: -webkit-linear-gradient(#00519e 50%, #003c75 51%);
+    background: linear-gradient(#00519e 50%, #003c75 51%);
+    -moz-box-shadow: #0078ea 0 1px 0 inset;
+    -webkit-box-shadow: #0078ea 0 1px 0 inset;
+    box-shadow: #0078ea 0 1px 0 inset;
+    border: 1px solid #002f5c;
     color: #fff;
-    text-shadow: #525d25 0 -1px 0;
+    text-shadow: #000d1a 0 -1px 0;
   }
   /* line 15, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
   .my-btn:hover {
@@ -3238,24 +3237,24 @@ footer {
   }
   /* line 30, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
   .my-btn:hover {
-    background-color: #758435;
-    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM4ZWEyNDAiLz48c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzc1ODQzNSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, #8ea240), color-stop(51%, #758435));
-    background: -moz-linear-gradient(#8ea240 50%, #758435 51%);
-    background: -webkit-linear-gradient(#8ea240 50%, #758435 51%);
-    background: linear-gradient(#8ea240 50%, #758435 51%);
+    background-color: #002a51;
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMwMDNmN2EiLz48c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzAwMmE1MSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, #003f7a), color-stop(51%, #002a51));
+    background: -moz-linear-gradient(#003f7a 50%, #002a51 51%);
+    background: -webkit-linear-gradient(#003f7a 50%, #002a51 51%);
+    background: linear-gradient(#003f7a 50%, #002a51 51%);
   }
   /* line 33, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
   .my-btn:active {
-    -moz-box-shadow: #718133 0 1px 2px inset;
-    -webkit-box-shadow: #718133 0 1px 2px inset;
-    box-shadow: #718133 0 1px 2px inset;
+    -moz-box-shadow: #00274c 0 1px 2px inset;
+    -webkit-box-shadow: #00274c 0 1px 2px inset;
+    box-shadow: #00274c 0 1px 2px inset;
   }
   /* line 6, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
   .my-btn.disabled, .my-btn[disabled] {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
     opacity: 0.6;
-    background: #8b9e3f;
+    background: #003c75;
     cursor: default;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
