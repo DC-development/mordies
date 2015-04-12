@@ -1035,7 +1035,7 @@ ul.nav li a:hover {
 }
 
 /* line 140, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
-.fa-gears:before, i.myServices:before, i.myTranslation:before,
+.fa-gears:before, i.myTranslation:before,
 .fa-cogs:before {
   content: "";
 }
@@ -1227,7 +1227,7 @@ ul.nav li a:hover {
 }
 
 /* line 180, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/font-awesome-sass-4.3.2.1/assets/stylesheets/font-awesome/_icons.scss */
-.fa-wrench:before, i.myDemo:before {
+.fa-wrench:before, i.myServices:before, i.myDemo:before {
   content: "";
 }
 
