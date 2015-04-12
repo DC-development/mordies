@@ -95,6 +95,7 @@ header {
 		padding-top: 2.5em;
 		max-width: 22em;
 		overflow: hidden;
+		clear: both;
 		.illu{
 			@include span(1 of 10);
 			padding-top: 0.2em;
@@ -177,10 +178,9 @@ footer {
 		margin: 0;
 		section {
 		  .illu{
-				padding-top: 0.2em;
+		  		@include span(8 of 8);
 				position: absolute;
 				overflow: hidden;
-				@include span(8 of 8);
 				margin-left:-0.5em;
 				i {
 					font-size: 2em;
