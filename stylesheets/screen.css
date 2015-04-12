@@ -3117,25 +3117,31 @@ header .header-typo {
   float: left;
   display: block;
 }
-/* line 68, ../scss/screen.scss */
+/* line 69, ../scss/screen.scss */
 header .header-typo h1, header .header-typo h2 {
   font-family: lucida console;
   color: #003c75;
+  padding-left: 0.4em;
 }
-/* line 73, ../scss/screen.scss */
+/* line 74, ../scss/screen.scss */
+header .header-typo h2 {
+  font-size: 0.8em;
+  padding-left: 0.6em;
+}
+/* line 79, ../scss/screen.scss */
 header img {
   float: left;
   margin-top: 1.8em;
   width: 4.3em;
 }
 
-/* line 79, ../scss/screen.scss */
+/* line 85, ../scss/screen.scss */
 #chooseLang {
   float: right;
   padding-right: 0.5em;
 }
 
-/* line 84, ../scss/screen.scss */
+/* line 90, ../scss/screen.scss */
 #main {
   max-width: 100%;
   margin-left: auto;
@@ -3151,14 +3157,14 @@ header img {
   display: block;
   clear: both;
 }
-/* line 93, ../scss/screen.scss */
+/* line 99, ../scss/screen.scss */
 #main section {
   margin: auto;
   padding-top: 2.5em;
   max-width: 22em;
   overflow: hidden;
 }
-/* line 99, ../scss/screen.scss */
+/* line 105, ../scss/screen.scss */
 #main section .illu {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -3169,7 +3175,7 @@ header img {
   padding-right: 1%;
   padding-top: 0.2em;
 }
-/* line 103, ../scss/screen.scss */
+/* line 109, ../scss/screen.scss */
 #main section article {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -3179,19 +3185,19 @@ header img {
   padding-left: 1%;
   padding-right: 1%;
 }
-/* line 106, ../scss/screen.scss */
+/* line 112, ../scss/screen.scss */
 #main section h2 {
   margin-top: 0.5em;
 }
-/* line 109, ../scss/screen.scss */
+/* line 115, ../scss/screen.scss */
 #main section h3 {
   clear: both;
 }
-/* line 112, ../scss/screen.scss */
+/* line 118, ../scss/screen.scss */
 #main section p {
   line-height: 1.5em;
 }
-/* line 114, ../scss/screen.scss */
+/* line 120, ../scss/screen.scss */
 #main section p img.reference {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -3202,13 +3208,13 @@ header img {
   padding-right: 2.5%;
 }
 
-/* line 122, ../scss/screen.scss */
+/* line 128, ../scss/screen.scss */
 footer {
   padding: 0.4em;
 }
 
 @media (min-width: 600px) {
-  /* line 127, ../scss/screen.scss */
+  /* line 133, ../scss/screen.scss */
   .my-btn {
     font-size: 0.6em;
     padding: 0.5em 1.5em;
@@ -3266,38 +3272,39 @@ footer {
     margin: -1px !important;
   }
 
-  /* line 130, ../scss/screen.scss */
+  /* line 136, ../scss/screen.scss */
   body {
     font-size: 30px;
   }
 }
 @media (max-width: 800px) {
-  /* line 137, ../scss/screen.scss */
+  /* line 144, ../scss/screen.scss */
   nav #toggleNav {
     display: block;
     float: right;
   }
-  /* line 141, ../scss/screen.scss */
+  /* line 148, ../scss/screen.scss */
   nav ul.nav {
     width: 100%;
   }
-  /* line 143, ../scss/screen.scss */
+  /* line 150, ../scss/screen.scss */
   nav ul.nav li {
     float: none;
     width: 100%;
     padding: 0;
   }
-  /* line 147, ../scss/screen.scss */
+  /* line 154, ../scss/screen.scss */
   nav ul.nav li a {
     padding-left: 1.25em;
     text-align: left;
   }
-  /* line 153, ../scss/screen.scss */
+  /* line 160, ../scss/screen.scss */
   nav.collapsed {
-    height: 1.4em;
+    height: 1.3em;
+    min-height: 30px;
   }
 
-  /* line 158, ../scss/screen.scss */
+  /* line 165, ../scss/screen.scss */
   #main {
     max-width: 100%;
     margin-left: auto;
@@ -3312,7 +3319,7 @@ footer {
     clear: both;
   }
 
-  /* line 165, ../scss/screen.scss */
+  /* line 172, ../scss/screen.scss */
   .my-btn {
     font-size: 0.6em;
     padding: 0.5em 1.5em;
@@ -3370,18 +3377,18 @@ footer {
     margin: -1px !important;
   }
 
-  /* line 168, ../scss/screen.scss */
+  /* line 175, ../scss/screen.scss */
   body {
     font-size: 24px;
   }
 }
-@media (max-width: 350px) {
-  /* line 173, ../scss/screen.scss */
+@media (max-width: 450px) {
+  /* line 180, ../scss/screen.scss */
   body {
     font-size: 6vw;
   }
 
-  /* line 176, ../scss/screen.scss */
+  /* line 183, ../scss/screen.scss */
   #main {
     max-width: 100%;
     margin-left: auto;
@@ -3394,7 +3401,7 @@ footer {
     display: block;
     clear: both;
   }
-  /* line 180, ../scss/screen.scss */
+  /* line 187, ../scss/screen.scss */
   #main section .illu {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -3407,13 +3414,13 @@ footer {
     overflow: hidden;
     margin-left: -0.5em;
   }
-  /* line 185, ../scss/screen.scss */
+  /* line 192, ../scss/screen.scss */
   #main section .illu i {
     font-size: 2em;
     opacity: 0.3;
     float: right;
   }
-  /* line 192, ../scss/screen.scss */
+  /* line 199, ../scss/screen.scss */
   #main section article {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -3424,7 +3431,7 @@ footer {
     padding-right: 1.25%;
   }
 
-  /* line 198, ../scss/screen.scss */
+  /* line 205, ../scss/screen.scss */
   .my-btn {
     font-size: 0.6em;
     padding: 0.5em 1.5em;
@@ -3480,5 +3487,10 @@ footer {
   .my-btn::-moz-focus-inner {
     padding: 0 !important;
     margin: -1px !important;
+  }
+
+  /* line 209, ../scss/screen.scss */
+  header img {
+    width: 3.9em;
   }
 }

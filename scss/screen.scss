@@ -65,9 +65,15 @@ header {
 		width:70%;
 		float: left;
 		display: block;
+
 		h1,h2 {
 			font-family: lucida console;
 			color: $dc-base-color;
+			padding-left: 0.4em;
+		}
+		h2 {
+			font-size: 0.8em;
+			padding-left: 0.6em;
 		}
 	}
 	img{
@@ -130,31 +136,32 @@ footer {
 	body  {
 		font-size: 30px;
 	}
+	
 }
 
 @include breakpoint(max-width 800px) {
 	nav {
-			#toggleNav {
-				display: block;
-				float: right;
-			}
-			ul.nav{
+		#toggleNav {
+			display: block;
+			float: right;
+		}
+		ul.nav{
+			width: 100%;
+			li {
+				float: none;
 				width: 100%;
-				li {
-					float: none;
-					width: 100%;
-					padding: 0;
-					a {
-						padding-left: 1.25em;
-						text-align: left;
-					}
+				padding: 0;
+				a {
+					padding-left: 1.25em;
+					text-align: left;
 				}
 			}
-			&.collapsed {
-		height: 1.4em;
-	}
-
 		}
+		&.collapsed {
+			height: 1.3em;
+			min-height: 30px;
+		}
+	}
 	#main{
 		@include container(100%);
 		max-width: 550px;
@@ -169,7 +176,7 @@ footer {
 		font-size: 24px;
 	}
 }
-@include breakpoint(max-width 350px) {
+@include breakpoint(max-width 450px) {
 	body  {
 		font-size: 6vw;
 	}
@@ -197,5 +204,10 @@ footer {
 	}
 	.my-btn {
 		@include sassy-button("glass", 0.2em, 0.6em, #04e0dc, #0b8893);
+	}
+	header {
+		img{
+		  	width: 3.9em;
+		}
 	}
 }
