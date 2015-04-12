@@ -1,6 +1,4 @@
 
-{$articles.services.text}
-
 {foreach $articles as $article}
 	<section id="services">
 		<div class="illu"><i class="{$article.icon}"></i></div>
