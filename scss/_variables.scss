@@ -1,7 +1,8 @@
-$dc-base-color: #0b7200;
+$dc-base-color: #8b9e3f;
 $dc-light-color: #fff;
 
+$banner-background-color: lighten($dc-base-color, 70);
 $border-color: lighten($dc-base-color, 20);
-$nav-link-color: lighten($dc-base-color, 40);
+$nav-link-color: lighten($dc-base-color, 40); 
 $nav-hover-color: lighten($dc-base-color, 60);
 $nav-background-color: lighten($dc-base-color, 10);

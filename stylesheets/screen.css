@@ -116,8 +116,8 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  border: 1px solid #15d800;
-  background: #10a500;
+  border: 1px solid #baca79;
+  background: #a7bb55;
   z-index: 1000;
   overflow: hidden;
   height: auto;
@@ -132,7 +132,7 @@ nav #toggleNav {
   margin: 0.4em;
   background: none;
   border: none;
-  color: #52ff3f;
+  color: #dfe7c2;
 }
 /* line 9, ../scss/_nav.scss */
 nav #toggleNav:focus {
@@ -163,13 +163,13 @@ ul.nav li a {
   text-align: center;
   padding: 1em 0;
   font-size: 0.5em;
-  color: #52ff3f;
+  color: #dfe7c2;
   text-decoration: none;
   text-transform: capitalize;
 }
 /* line 40, ../scss/_nav.scss */
 ul.nav li a:hover {
-  background: #aeffa5;
+  background: white;
 }
 
 /*!
@@ -3068,7 +3068,7 @@ i.myInterpretation:before {
 
 /* line 16, ../scss/screen.scss */
 body {
-  background: #0b7200;
+  background: #8b9e3f;
 }
 /* line 18, ../scss/screen.scss */
 body a {
@@ -3099,7 +3099,7 @@ i.myReference {
 /* line 54, ../scss/screen.scss */
 header {
   padding-top: 0.5em;
-  background: #fff;
+  background: white;
   overflow: hidden;
   height: 6.3em;
 }
@@ -3117,22 +3117,23 @@ header .header-typo {
 }
 /* line 68, ../scss/screen.scss */
 header .header-typo h1, header .header-typo h2 {
-  color: #0b7200;
+  font-family: lucida console;
+  color: #8b9e3f;
 }
-/* line 72, ../scss/screen.scss */
+/* line 73, ../scss/screen.scss */
 header img {
   float: left;
   margin-top: 1.8em;
   width: 4.3em;
 }
 
-/* line 78, ../scss/screen.scss */
+/* line 79, ../scss/screen.scss */
 #chooseLang {
   float: right;
   padding-right: 0.5em;
 }
 
-/* line 83, ../scss/screen.scss */
+/* line 84, ../scss/screen.scss */
 #main {
   max-width: 100%;
   margin-left: auto;
@@ -3140,7 +3141,7 @@ header img {
   max-width: 26em;
   padding-bottom: 20em;
   margin: auto;
-  background: #0b7200;
+  background: #8b9e3f;
 }
 /* line 12, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
 #main:after {
@@ -3148,14 +3149,14 @@ header img {
   display: block;
   clear: both;
 }
-/* line 92, ../scss/screen.scss */
+/* line 93, ../scss/screen.scss */
 #main section {
   margin: auto;
   padding-top: 2.5em;
   max-width: 22em;
   overflow: hidden;
 }
-/* line 97, ../scss/screen.scss */
+/* line 98, ../scss/screen.scss */
 #main section .illu {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -3165,7 +3166,7 @@ header img {
   padding-left: 1%;
   padding-right: 1%;
 }
-/* line 100, ../scss/screen.scss */
+/* line 101, ../scss/screen.scss */
 #main section article {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -3175,15 +3176,15 @@ header img {
   padding-left: 1%;
   padding-right: 1%;
 }
-/* line 103, ../scss/screen.scss */
+/* line 104, ../scss/screen.scss */
 #main section h2 {
   margin-top: 0.5em;
 }
-/* line 106, ../scss/screen.scss */
+/* line 107, ../scss/screen.scss */
 #main section h3 {
   clear: both;
 }
-/* line 110, ../scss/screen.scss */
+/* line 111, ../scss/screen.scss */
 #main section p img.reference {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -3194,13 +3195,13 @@ header img {
   padding-right: 2.5%;
 }
 
-/* line 118, ../scss/screen.scss */
+/* line 119, ../scss/screen.scss */
 footer {
   padding: 0.4em;
 }
 
 @media (min-width: 600px) {
-  /* line 123, ../scss/screen.scss */
+  /* line 124, ../scss/screen.scss */
   .my-btn {
     font-size: 0.6em;
     padding: 0.5em 1.5em;
@@ -3210,18 +3211,18 @@ footer {
     -webkit-border-radius: 0.2em;
     border-radius: 0.2em;
     *zoom: 1;
-    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF0B7200', endColorstr='#FF010C00');
-    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMwZjliMDAiLz48c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzBiNzIwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, #0f9b00), color-stop(51%, #0b7200));
-    background: -moz-linear-gradient(#0f9b00 50%, #0b7200 51%);
-    background: -webkit-linear-gradient(#0f9b00 50%, #0b7200 51%);
-    background: linear-gradient(#0f9b00 50%, #0b7200 51%);
-    -moz-box-shadow: #16e700 0 1px 0 inset;
-    -webkit-box-shadow: #16e700 0 1px 0 inset;
-    box-shadow: #16e700 0 1px 0 inset;
-    border: 1px solid #095900;
+    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF8B9E3F', endColorstr='#FF4B5522');
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNhM2I4NGUiLz48c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzhiOWUzZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, #a3b84e), color-stop(51%, #8b9e3f));
+    background: -moz-linear-gradient(#a3b84e 50%, #8b9e3f 51%);
+    background: -webkit-linear-gradient(#a3b84e 50%, #8b9e3f 51%);
+    background: linear-gradient(#a3b84e 50%, #8b9e3f 51%);
+    -moz-box-shadow: #bfce84 0 1px 0 inset;
+    -webkit-box-shadow: #bfce84 0 1px 0 inset;
+    box-shadow: #bfce84 0 1px 0 inset;
+    border: 1px solid #7b8c38;
     color: #fff;
-    text-shadow: #021700 0 -1px 0;
+    text-shadow: #525d25 0 -1px 0;
   }
   /* line 15, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
   .my-btn:hover {
@@ -3229,24 +3230,24 @@ footer {
   }
   /* line 30, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
   .my-btn:hover {
-    background-color: #084e00;
-    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMwYjc3MDAiLz48c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzA4NGUwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, #0b7700), color-stop(51%, #084e00));
-    background: -moz-linear-gradient(#0b7700 50%, #084e00 51%);
-    background: -webkit-linear-gradient(#0b7700 50%, #084e00 51%);
-    background: linear-gradient(#0b7700 50%, #084e00 51%);
+    background-color: #758435;
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM4ZWEyNDAiLz48c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzc1ODQzNSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(50%, #8ea240), color-stop(51%, #758435));
+    background: -moz-linear-gradient(#8ea240 50%, #758435 51%);
+    background: -webkit-linear-gradient(#8ea240 50%, #758435 51%);
+    background: linear-gradient(#8ea240 50%, #758435 51%);
   }
   /* line 33, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
   .my-btn:active {
-    -moz-box-shadow: #074900 0 1px 2px inset;
-    -webkit-box-shadow: #074900 0 1px 2px inset;
-    box-shadow: #074900 0 1px 2px inset;
+    -moz-box-shadow: #718133 0 1px 2px inset;
+    -webkit-box-shadow: #718133 0 1px 2px inset;
+    box-shadow: #718133 0 1px 2px inset;
   }
   /* line 6, ../../../../Program Files (x86)/Heroku/ruby-1.9.3/lib/ruby/gems/1.9.1/gems/sassy-buttons-0.2.6/stylesheets/sassy-buttons/_sassy-button-pseudo-states.sass */
   .my-btn.disabled, .my-btn[disabled] {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
     opacity: 0.6;
-    background: #0b7200;
+    background: #8b9e3f;
     cursor: default;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
@@ -3258,38 +3259,38 @@ footer {
     margin: -1px !important;
   }
 
-  /* line 126, ../scss/screen.scss */
+  /* line 127, ../scss/screen.scss */
   body {
     font-size: 30px;
   }
 }
 @media (max-width: 800px) {
-  /* line 133, ../scss/screen.scss */
+  /* line 134, ../scss/screen.scss */
   nav #toggleNav {
     display: block;
     float: right;
   }
-  /* line 137, ../scss/screen.scss */
+  /* line 138, ../scss/screen.scss */
   nav ul.nav {
     width: 100%;
   }
-  /* line 139, ../scss/screen.scss */
+  /* line 140, ../scss/screen.scss */
   nav ul.nav li {
     float: none;
     width: 100%;
     padding: 0;
   }
-  /* line 143, ../scss/screen.scss */
+  /* line 144, ../scss/screen.scss */
   nav ul.nav li a {
     padding-left: 1.25em;
     text-align: left;
   }
-  /* line 149, ../scss/screen.scss */
+  /* line 150, ../scss/screen.scss */
   nav.collapsed {
     height: 1.4em;
   }
 
-  /* line 154, ../scss/screen.scss */
+  /* line 155, ../scss/screen.scss */
   #main {
     max-width: 100%;
     margin-left: auto;
@@ -3304,7 +3305,7 @@ footer {
     clear: both;
   }
 
-  /* line 161, ../scss/screen.scss */
+  /* line 162, ../scss/screen.scss */
   .my-btn {
     font-size: 0.6em;
     padding: 0.5em 1.5em;
@@ -3362,18 +3363,18 @@ footer {
     margin: -1px !important;
   }
 
-  /* line 164, ../scss/screen.scss */
+  /* line 165, ../scss/screen.scss */
   body {
     font-size: 24px;
   }
 }
 @media (max-width: 350px) {
-  /* line 169, ../scss/screen.scss */
+  /* line 170, ../scss/screen.scss */
   body {
     font-size: 6vw;
   }
 
-  /* line 172, ../scss/screen.scss */
+  /* line 173, ../scss/screen.scss */
   #main {
     max-width: 100%;
     margin-left: auto;
@@ -3386,7 +3387,7 @@ footer {
     display: block;
     clear: both;
   }
-  /* line 176, ../scss/screen.scss */
+  /* line 177, ../scss/screen.scss */
   #main section .illu {
     position: absolute;
     overflow: hidden;
@@ -3399,13 +3400,13 @@ footer {
     padding-right: 1.25%;
     margin-left: -0.5em;
   }
-  /* line 182, ../scss/screen.scss */
+  /* line 183, ../scss/screen.scss */
   #main section .illu i {
     font-size: 2em;
     opacity: 0.3;
     float: right;
   }
-  /* line 189, ../scss/screen.scss */
+  /* line 190, ../scss/screen.scss */
   #main section article {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -3416,7 +3417,7 @@ footer {
     padding-right: 1.25%;
   }
 
-  /* line 195, ../scss/screen.scss */
+  /* line 196, ../scss/screen.scss */
   .my-btn {
     font-size: 0.6em;
     padding: 0.5em 1.5em;
