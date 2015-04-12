@@ -3418,9 +3418,10 @@ footer {
   #main section .illu i {
     font-size: 2em;
     opacity: 0.3;
+    padding: 0.2em;
     float: right;
   }
-  /* line 199, ../scss/screen.scss */
+  /* line 200, ../scss/screen.scss */
   #main section article {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -3431,7 +3432,7 @@ footer {
     padding-right: 1.25%;
   }
 
-  /* line 205, ../scss/screen.scss */
+  /* line 206, ../scss/screen.scss */
   .my-btn {
     font-size: 0.6em;
     padding: 0.5em 1.5em;
@@ -3489,7 +3490,7 @@ footer {
     margin: -1px !important;
   }
 
-  /* line 209, ../scss/screen.scss */
+  /* line 210, ../scss/screen.scss */
   header img {
     width: 3.9em;
   }
