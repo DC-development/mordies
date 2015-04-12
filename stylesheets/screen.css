@@ -3070,69 +3070,69 @@ i.myInterpretation:before {
 body {
   background: #0b7200;
 }
+/* line 18, ../scss/screen.scss */
+body a {
+  color: #fff;
+}
 
-/* line 19, ../scss/screen.scss */
+/* line 22, ../scss/screen.scss */
 i {
   font-size: 1.4em;
 }
-/* line 28, ../scss/screen.scss */
+/* line 31, ../scss/screen.scss */
 i.myTraining {
   width: auto;
 }
-/* line 32, ../scss/screen.scss */
+/* line 35, ../scss/screen.scss */
 i.myTranslation {
   width: auto;
 }
-/* line 36, ../scss/screen.scss */
+/* line 39, ../scss/screen.scss */
 i.myInterpretation {
   width: auto;
 }
-/* line 40, ../scss/screen.scss */
+/* line 43, ../scss/screen.scss */
 i.myReference {
   width: auto;
 }
 
-/* line 51, ../scss/screen.scss */
+/* line 54, ../scss/screen.scss */
 header {
   padding-top: 0.5em;
   background: #fff;
   overflow: hidden;
   height: 6.3em;
 }
-/* line 56, ../scss/screen.scss */
+/* line 59, ../scss/screen.scss */
 header .header-container {
   max-width: 22em;
   margin: auto;
 }
-/* line 60, ../scss/screen.scss */
+/* line 63, ../scss/screen.scss */
 header .header-typo {
   padding-top: 2em;
   width: 70%;
   float: left;
   display: block;
 }
-/* line 65, ../scss/screen.scss */
+/* line 68, ../scss/screen.scss */
 header .header-typo h1, header .header-typo h2 {
   color: #0b7200;
 }
-/* line 69, ../scss/screen.scss */
+/* line 72, ../scss/screen.scss */
 header img {
   float: left;
   margin-top: 1.8em;
   width: 4.3em;
 }
 
-/* line 75, ../scss/screen.scss */
+/* line 78, ../scss/screen.scss */
 #chooseLang {
   float: right;
   padding-right: 0.5em;
 }
-/* line 78, ../scss/screen.scss */
-#chooseLang a {
-  color: #fff;
-}
 
-/* line 82, ../scss/screen.scss */
+/* line 83, ../scss/screen.scss */
 #main {
   max-width: 100%;
   margin-left: auto;
@@ -3148,14 +3148,14 @@ header img {
   display: block;
   clear: both;
 }
-/* line 91, ../scss/screen.scss */
+/* line 92, ../scss/screen.scss */
 #main section {
   margin: auto;
   padding-top: 2.5em;
   max-width: 22em;
   overflow: hidden;
 }
-/* line 96, ../scss/screen.scss */
+/* line 97, ../scss/screen.scss */
 #main section .illu {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -3165,7 +3165,7 @@ header img {
   padding-left: 1%;
   padding-right: 1%;
 }
-/* line 99, ../scss/screen.scss */
+/* line 100, ../scss/screen.scss */
 #main section article {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -3175,15 +3175,15 @@ header img {
   padding-left: 1%;
   padding-right: 1%;
 }
-/* line 102, ../scss/screen.scss */
+/* line 103, ../scss/screen.scss */
 #main section h2 {
   margin-top: 0.5em;
 }
-/* line 105, ../scss/screen.scss */
+/* line 106, ../scss/screen.scss */
 #main section h3 {
   clear: both;
 }
-/* line 109, ../scss/screen.scss */
+/* line 110, ../scss/screen.scss */
 #main section p img.reference {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -3194,13 +3194,13 @@ header img {
   padding-right: 2.5%;
 }
 
-/* line 117, ../scss/screen.scss */
+/* line 118, ../scss/screen.scss */
 footer {
   padding: 0.4em;
 }
 
 @media (min-width: 600px) {
-  /* line 122, ../scss/screen.scss */
+  /* line 123, ../scss/screen.scss */
   .my-btn {
     font-size: 0.6em;
     padding: 0.5em 1.5em;
@@ -3258,38 +3258,38 @@ footer {
     margin: -1px !important;
   }
 
-  /* line 125, ../scss/screen.scss */
+  /* line 126, ../scss/screen.scss */
   body {
     font-size: 30px;
   }
 }
 @media (max-width: 800px) {
-  /* line 132, ../scss/screen.scss */
+  /* line 133, ../scss/screen.scss */
   nav #toggleNav {
     display: block;
     float: right;
   }
-  /* line 136, ../scss/screen.scss */
+  /* line 137, ../scss/screen.scss */
   nav ul.nav {
     width: 100%;
   }
-  /* line 138, ../scss/screen.scss */
+  /* line 139, ../scss/screen.scss */
   nav ul.nav li {
     float: none;
     width: 100%;
     padding: 0;
   }
-  /* line 142, ../scss/screen.scss */
+  /* line 143, ../scss/screen.scss */
   nav ul.nav li a {
     padding-left: 1.25em;
     text-align: left;
   }
-  /* line 148, ../scss/screen.scss */
+  /* line 149, ../scss/screen.scss */
   nav.collapsed {
     height: 1.4em;
   }
 
-  /* line 153, ../scss/screen.scss */
+  /* line 154, ../scss/screen.scss */
   #main {
     max-width: 100%;
     margin-left: auto;
@@ -3304,7 +3304,7 @@ footer {
     clear: both;
   }
 
-  /* line 160, ../scss/screen.scss */
+  /* line 161, ../scss/screen.scss */
   .my-btn {
     font-size: 0.6em;
     padding: 0.5em 1.5em;
@@ -3362,18 +3362,18 @@ footer {
     margin: -1px !important;
   }
 
-  /* line 163, ../scss/screen.scss */
+  /* line 164, ../scss/screen.scss */
   body {
     font-size: 24px;
   }
 }
 @media (max-width: 350px) {
-  /* line 168, ../scss/screen.scss */
+  /* line 169, ../scss/screen.scss */
   body {
     font-size: 6vw;
   }
 
-  /* line 171, ../scss/screen.scss */
+  /* line 172, ../scss/screen.scss */
   #main {
     max-width: 100%;
     margin-left: auto;
@@ -3386,7 +3386,7 @@ footer {
     display: block;
     clear: both;
   }
-  /* line 175, ../scss/screen.scss */
+  /* line 176, ../scss/screen.scss */
   #main section .illu {
     position: absolute;
     overflow: hidden;
@@ -3399,13 +3399,13 @@ footer {
     padding-right: 1.25%;
     margin-left: -0.5em;
   }
-  /* line 181, ../scss/screen.scss */
+  /* line 182, ../scss/screen.scss */
   #main section .illu i {
     font-size: 2em;
     opacity: 0.3;
     float: right;
   }
-  /* line 188, ../scss/screen.scss */
+  /* line 189, ../scss/screen.scss */
   #main section article {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -3416,7 +3416,7 @@ footer {
     padding-right: 1.25%;
   }
 
-  /* line 194, ../scss/screen.scss */
+  /* line 195, ../scss/screen.scss */
   .my-btn {
     font-size: 0.6em;
     padding: 0.5em 1.5em;
