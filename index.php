@@ -30,22 +30,16 @@
 		$smarty->assign("Name", "Fred Irving Johnathan Bradley Peppergill", true);
 
 		$smarty->display('header.tpl');
+
+		$smarty->display('langswitch.tpl');
 		
-			if(isset($_GET['lang'])) {
-				$lang = $_GET['lang'];
-			}else{
-				$lang = "en";
-			}
-			//Loading language file
-			$str = file_get_contents("./lang/".$lang.".json");
-			$json = json_decode($str, true);
+		if(isset($_GET['lang'])) {
+			$lang = $_GET['lang'];
+		}else{
+			$lang = "en";
+		}
 
-
-			$smarty->assign("articles", $json, true);
-
-			//include  $lang."/content.php";
-$smarty->display('content.tpl');
-			//echo $_SERVER['REQUEST_URI']."<br />";
+		include  $lang."/content.php";
 
 ?>
 
