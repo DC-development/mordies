@@ -44,7 +44,6 @@
 			<h3>&Uuml;bersetzung</h3>
 			<p>Sollten sie auf der Suche sein nach jemandem der ihre Dokumente von einer Sprache in eine andere &uuml;bersetzt, oder im Fall, dass sie planen im Ausland Gesch&auml;fte zu machen, brauchen sie eventuell die Hilfe von Sprachfachkr&auml;ften um sie in ihren Unternehmungen zu unterst&uuml;tzen. W&auml;hrend Grundkentnisse der Zielsprache ein guter Startpunkt sind, um &Uuml;bersetzungen zu erstellen, gibt es doch bestimmte Texte bei denen ein ausgepr&auml;gtes Verst&auml;ndnis der Zielkultur oder Sachkenntnis notwendig ist, um eine zuverl&auml;ssige &Uuml;bersetzung zu erstellen.  Ob es sich um ein paar Zeilen in einem auf dem Dachboden gefundenen Notizbuch, oder die &Uuml;bersetzung der Webseite ihrer Firma oder ihrten letzten Roman handelt; keine Aufgabe ist zu unbedeutend und keine zu Komplex; wir erstellen ihnen gerne ein unverbindliches, faires Angebot, oder berechenen ob es uns M&ouml;glich ist im Rahmen ihres Budgets f&uuml;r sie t&auml;tig zu werden. Sind sie soweit ihre &Uuml;bersetzungsw&uuml;nsche mit uns zu besprechen? Hinterlassen sie uns einfach eine Nachricht und wir melden uns umgehend bei ihnen.</p>
 		</article>
-		
 	</section>
 	<section id="training">
 		<div class="illu"><i class="myTraining"></i></div>
@@ -71,13 +70,13 @@
 			<h3>Mordies Quality Translations</h3>
 			<p>P.O. Box 1416<br> 21614 Buxtehude<br> Germany<br> mail us: <a href="mailto:mail@mordies.com">mail [at] mordies.com</a></p><!--
 			<form action="mailto:mail@mordies.com" method="post" enctype="text/plain">
-					<p>
-							<label>
-									Your Email:
-							</label>
-							<input type="email" name="email" />
-							<button class="my-btn" type="submit">My Button</button>
-					</p>
+						<p>
+									<label>
+												Your Email:
+									</label>
+									<input type="email" name="email" />
+									<button class="my-btn" type="submit">My Button</button>
+						</p>
 			</form>
 		--></article>
 	</section>

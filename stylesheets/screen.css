@@ -3184,7 +3184,11 @@ header img {
 #main section h3 {
   clear: both;
 }
-/* line 111, ../scss/screen.scss */
+/* line 110, ../scss/screen.scss */
+#main section p {
+  line-height: 1.5em;
+}
+/* line 112, ../scss/screen.scss */
 #main section p img.reference {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -3195,13 +3199,13 @@ header img {
   padding-right: 2.5%;
 }
 
-/* line 119, ../scss/screen.scss */
+/* line 120, ../scss/screen.scss */
 footer {
   padding: 0.4em;
 }
 
 @media (min-width: 600px) {
-  /* line 124, ../scss/screen.scss */
+  /* line 125, ../scss/screen.scss */
   .my-btn {
     font-size: 0.6em;
     padding: 0.5em 1.5em;
@@ -3259,38 +3263,38 @@ footer {
     margin: -1px !important;
   }
 
-  /* line 127, ../scss/screen.scss */
+  /* line 128, ../scss/screen.scss */
   body {
     font-size: 30px;
   }
 }
 @media (max-width: 800px) {
-  /* line 134, ../scss/screen.scss */
+  /* line 135, ../scss/screen.scss */
   nav #toggleNav {
     display: block;
     float: right;
   }
-  /* line 138, ../scss/screen.scss */
+  /* line 139, ../scss/screen.scss */
   nav ul.nav {
     width: 100%;
   }
-  /* line 140, ../scss/screen.scss */
+  /* line 141, ../scss/screen.scss */
   nav ul.nav li {
     float: none;
     width: 100%;
     padding: 0;
   }
-  /* line 144, ../scss/screen.scss */
+  /* line 145, ../scss/screen.scss */
   nav ul.nav li a {
     padding-left: 1.25em;
     text-align: left;
   }
-  /* line 150, ../scss/screen.scss */
+  /* line 151, ../scss/screen.scss */
   nav.collapsed {
     height: 1.4em;
   }
 
-  /* line 155, ../scss/screen.scss */
+  /* line 156, ../scss/screen.scss */
   #main {
     max-width: 100%;
     margin-left: auto;
@@ -3305,7 +3309,7 @@ footer {
     clear: both;
   }
 
-  /* line 162, ../scss/screen.scss */
+  /* line 163, ../scss/screen.scss */
   .my-btn {
     font-size: 0.6em;
     padding: 0.5em 1.5em;
@@ -3363,18 +3367,18 @@ footer {
     margin: -1px !important;
   }
 
-  /* line 165, ../scss/screen.scss */
+  /* line 166, ../scss/screen.scss */
   body {
     font-size: 24px;
   }
 }
 @media (max-width: 350px) {
-  /* line 170, ../scss/screen.scss */
+  /* line 171, ../scss/screen.scss */
   body {
     font-size: 6vw;
   }
 
-  /* line 173, ../scss/screen.scss */
+  /* line 174, ../scss/screen.scss */
   #main {
     max-width: 100%;
     margin-left: auto;
@@ -3387,7 +3391,7 @@ footer {
     display: block;
     clear: both;
   }
-  /* line 177, ../scss/screen.scss */
+  /* line 178, ../scss/screen.scss */
   #main section .illu {
     position: absolute;
     overflow: hidden;
@@ -3400,13 +3404,13 @@ footer {
     padding-right: 1.25%;
     margin-left: -0.5em;
   }
-  /* line 183, ../scss/screen.scss */
+  /* line 184, ../scss/screen.scss */
   #main section .illu i {
     font-size: 2em;
     opacity: 0.3;
     float: right;
   }
-  /* line 190, ../scss/screen.scss */
+  /* line 191, ../scss/screen.scss */
   #main section article {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -3417,7 +3421,7 @@ footer {
     padding-right: 1.25%;
   }
 
-  /* line 196, ../scss/screen.scss */
+  /* line 197, ../scss/screen.scss */
   .my-btn {
     font-size: 0.6em;
     padding: 0.5em 1.5em;

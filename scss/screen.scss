@@ -108,6 +108,7 @@ header {
 		  	clear: both;	  
 		}
 		p{
+			line-height: 1.5em;
 			img.reference {
 		  		@include span(1 of 4)
 		  	}
