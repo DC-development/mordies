@@ -82,6 +82,3 @@
 		--></article>
 	</section>
 </div>
-<footer>
-	<p>Copyright (2015): Mordies Quality Translations &amp; DC Development. All rights reserved.</p>
-</footer>

@@ -27,8 +27,6 @@
 		$smarty->caching = true;
 		$smarty->cache_lifetime = 120;
 
-		$smarty->assign("Name", "Fred Irving Johnathan Bradley Peppergill", true);
-
 		$smarty->display('header.tpl');
 
 		$smarty->display('langswitch.tpl');
@@ -41,6 +39,7 @@
 
 		include  $lang."/content.php";
 
+		$smarty->display('footer.tpl');
 ?>
 
 	</body>

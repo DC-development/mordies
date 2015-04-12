@@ -15,6 +15,9 @@
 
 body {
 	background: $dc-base-color;
+	a {
+		color: $dc-light-color;
+	}
 }
 i {
 	@extend .fa;
@@ -75,9 +78,7 @@ header {
 #chooseLang{
 		float:right;
 		padding-right: 0.5em;
-		a {
-			color: $dc-light-color;
-		}
+		
 	}
 #main {
 
