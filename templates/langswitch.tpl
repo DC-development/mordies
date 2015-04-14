@@ -1,6 +1,6 @@
 <div id="chooseLang">
 	<p>
-		<a href="?lang=en">en</a>
-		<a href="?lang=de">de</a>
+		<a class="en" href="?lang=en">en</a>
+		<a class="de" href="?lang=de">de</a>
 	</p>
 </div>

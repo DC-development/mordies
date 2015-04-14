@@ -87,7 +87,23 @@ header {
 #chooseLang{
 		float:right;
 		padding-right: 0.5em;
-		
+		a {
+			display: block;
+			float: left;
+			padding: 18px;
+			margin-left: 1em;
+			
+			text-indent: -99em;
+
+			&.en {
+				background: transparent url(../images/flags/uk.png) 0px no-repeat;
+				background-size: 100%;
+			}
+			&.de {
+				background: transparent url(../images/flags/de.png) 0px no-repeat;
+				background-size: 100%;
+			}
+		}
 	}
 #main {
 
