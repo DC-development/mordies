@@ -90,11 +90,10 @@ header {
 		a {
 			display: block;
 			float: left;
-			padding: 18px;
+			padding: 1.2em;
 			margin-left: 1em;
-			
 			text-indent: -99em;
-
+			overflow:hidden;
 			&.en {
 				background: transparent url(../images/flags/uk.png) 0px no-repeat;
 				background-size: 100%;
