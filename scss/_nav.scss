@@ -19,11 +19,10 @@ nav {
 	background: $nav-background-color;
 	z-index: 1000;
 	overflow: hidden;
-	max-height:	24em;
+	max-height:	16em;
 	height:	auto;
 	@include transition-property(height, max-height, min-height);
   	@include transition-duration(0.3s);
-
   	&.collapsed {
 			min-height: 30px;
 			max-height: 1.5em;
@@ -39,7 +38,6 @@ ul.nav {
 		display: block; 
 		padding-left: 0;
 		padding-right: 0;
-		border-right: 1px solid $nav-border-color;
 		a {
 			display: block;
 			text-align: center;
@@ -70,11 +68,9 @@ ul.nav {
 				float: none;
 				width: 100%;
 				padding: 0;
-				border-top: 1px solid $nav-border-color;
 				a {
 					padding-left: 1.25em;
 					text-align: left;
-					font-size: 0.7em;
 				}
 			}
 		}
