@@ -1,4 +1,5 @@
 nav {
+	@include box-shadow(#000 0px 0px 0.5em);
 	#toggleNav {
 		display: none;
 		float: right;
@@ -18,9 +19,16 @@ nav {
 	background: $nav-background-color;
 	z-index: 1000;
 	overflow: hidden;
+	max-height:	16em;
 	height:	auto;
-	@include box-shadow(#000 0px 0px 0.5em);
+	@include transition-property(height, max-height, min-height);
+  	@include transition-duration(0.3s);
+  	&.collapsed {
+			min-height: 30px;
+			max-height: 1.5em;
+	}
 }
+
 ul.nav {
 	display: block;
 	overflow: hidden;
@@ -45,4 +53,30 @@ ul.nav {
 		}
 
 	}	
+}
+
+@include breakpoint(max-width 800px) {
+	nav {
+		
+		#toggleNav {
+			display: block;
+			float: right;
+		}
+		ul.nav {
+			width: 100%;
+			li {
+				float: none;
+				width: 100%;
+				padding: 0;
+				a {
+					padding-left: 1.25em;
+					text-align: left;
+				}
+			}
+		}
+		&.collapsed {
+			min-height: 30px;
+			max-height: 1.3em;
+		}
+	}
 }
