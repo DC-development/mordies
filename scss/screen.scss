@@ -4,21 +4,25 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
-@import "variables";
+@import "compass/css3/transition";
+@import "font-awesome";
 @import "sassybuttons";
 @import "breakpoint";
 @import "grids";
+@import "variables";
 @import "typo";
 @import "forms";
 @import "nav";
-@import "font-awesome";
+
 
 body {
-	background: $dc-base-color;
+	background: $page-background-color;
+	color: $font-color;
 	a {
-		color: $dc-light-color;
+		color: $font-color;
 	}
 }
+
 i {
 	@extend .fa;
 	font-size: 1.4em;
@@ -68,7 +72,7 @@ header {
 
 		h1,h2 {
 			font-family: lucida console;
-			color: $dc-base-color;
+			color: $banner-font-color;
 			padding-left: 0.4em;
 		}
 		h2 {
@@ -85,7 +89,22 @@ header {
 #chooseLang{
 		float:right;
 		padding-right: 0.5em;
-		
+		a {
+			display: block;
+			float: left;
+			padding: 1.2em;
+			margin-left: 1em;
+			text-indent: -99em;
+			overflow:hidden;
+			&.en {
+				background: transparent url(../images/flags/uk.png) 0px no-repeat;
+				background-size: 100%;
+			}
+			&.de {
+				background: transparent url(../images/flags/de.png) 0px no-repeat;
+				background-size: 100%;
+			}
+		}
 	}
 #main {
 
@@ -94,7 +113,6 @@ header {
 
 	padding-bottom: 20em;
 	margin: auto;
-	background: $dc-base-color;
 	
 	section {
 		margin: auto;
@@ -122,60 +140,31 @@ header {
 		  	}
 		}
 	}
-
 }
 
 footer {
-	padding: 0.4em;	
+	padding: 0.4em;
 }
 
 @include breakpoint(min-width 600px) {
-	.my-btn {
-		@include sassy-button("glass", 0.2em, 0.6em, $dc-base-color, $dc-base-color);
-	}
-	body  {
+	
+	body {
 		font-size: 30px;
 	}
-	
 }
 
 @include breakpoint(max-width 800px) {
-	nav {
-		#toggleNav {
-			display: block;
-			float: right;
-		}
-		ul.nav{
-			width: 100%;
-			li {
-				float: none;
-				width: 100%;
-				padding: 0;
-				a {
-					padding-left: 1.25em;
-					text-align: left;
-				}
-			}
-		}
-		&.collapsed {
-			height: 1.3em;
-			min-height: 30px;
-		}
-	}
-	#main{
+	#main {
 		@include container(100%);
 		max-width: 550px;
 		max-width: 20em;
 		
 	}
-
-	.my-btn {
-		@include sassy-button("glass", 0.2em, 0.6em, #dead2c, #ea9e1b);
-	}
 	body  {
 		font-size: 24px;
 	}
 }
+
 @include breakpoint(max-width 450px) {
 	body  {
 		font-size: 6vw;
@@ -184,7 +173,7 @@ footer {
 		@include container(100%);
 		margin: 0;
 		section {
-		  .illu{
+		  .illu {
 		  		@include span(8 of 8);
 				position: absolute;
 				overflow: hidden;
@@ -196,18 +185,16 @@ footer {
 					float: right;
 				}
 			}
-		
-			article{
+			article {
 				@include span(8 of 8)
 			}
 		}
-
 	}
 	.my-btn {
 		@include sassy-button("glass", 0.2em, 0.6em, #04e0dc, #0b8893);
 	}
 	header {
-		img{
+		img {
 		  	width: 3.9em;
 		}
 	}

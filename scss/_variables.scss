@@ -1,8 +1,15 @@
-$dc-base-color: #003c75;
-$dc-light-color: #fff;
 
-$banner-background-color: lighten($dc-base-color, 70);
-$border-color: lighten($dc-base-color, 20);
-$nav-link-color: lighten($dc-base-color, 40); 
-$nav-hover-color: lighten($dc-base-color, 60);
-$nav-background-color: lighten($dc-base-color, 10);
+/*
+* New color-sheme
+*/
+
+$nav-background-color: #007aa5;
+$nav-border-color: #008dbf;
+$nav-link-color: #fff;
+$nav-hover-color: #000;
+
+$banner-background-color: #A9AAAA;
+$banner-font-color: #3d2b1f;
+
+$font-color: #000000;
+$page-background-color: #fff;
